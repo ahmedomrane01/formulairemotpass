@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Formulaire</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+  
+</head>
+<body>
+    
+    <form  style="border:1px solid #ccc">
+        <div class="container">
+          <h1>Formulaire</h1>
+          <p>Inscription</p>
+          <hr>
+      
+          <label for="name"><b>User name</b></label>
+          <input id ="name" type="text" placeholder="Enter name" name="name" >
+      
+          <label for="psw"><b>Password</b></label>
+          <input  id ="psw" type="password" placeholder="Enter Password" name="psw" >
+      
+          
+      
+                
+          <div class="clearfix">
+        
+            <button type="button" class="signupbtn" value="ok" onclick="verif()">Sign Up</button>
+          </div>
+        </div>
+      </form>
+
+      <p id="res"></p>
+
+      <script src='./main.js'></script>
+</body>
+</html>
